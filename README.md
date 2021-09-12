@@ -1,6 +1,13 @@
 # Stock-price-predictor
-Its a predictor price model in which it will predict the direction of the price of a product, and for that I predict the price of gold obtaining the data from
+Its a predictor price model in which it will predict the direction of the price of a product, and for that I predicted the price of gold obtaining the data from
 **Yahoo Finance**
+## **Results**
+I implemented the model with two different approaches, **Linear Regression** and two regularization techniques: **Lasso and Ridge Regression**. Accuracy is:
+- In Linear Regression: 99%
+- In Lasso Regression: 99%
+- In Ridge Regression: 99%
+
+So in this case all of the three scored the same accuracy
 ## Before
 - you should install yfinance: pip install yfinance
 - then import it into your project
